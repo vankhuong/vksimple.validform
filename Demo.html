@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Van Khuong" />
+    <title>Demo | Kiểm tra form hợp lệ với Javascript</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="vksimple.validform.js"></script>
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Demo | Kiểm tra form hợp lệ với Javascript</h1>
+        <p class="credits"><em>by:</em>  <a href="http://www.sothichweb.com/">sothichweb.com</a>
+        </p>
+    </header>
+    <article>
+        <div id="register">
+            <h1>Đăng ký thành viên</h1>
+            <form method="post" action="#" name="register">
+                <p>
+                    <label for="username">Tên đăng nhập(*)</label>
+                    <input class="text" type="password" name="username" id="username" />
+                </p>
+                <p>
+                    <label for="password">Password(*)</label>
+                    <input class="text" type="password" name="password" id="password" />
+                </p>
+                <p>
+                    <label for="confirm_pass">Nhập lại password(*)</label>
+                    <input class="text" type="password" name="confirm_pass" id="confirm_pass" />
+                </p>
+
+                <p>
+                    <label for="lastname">Họ của bạn(*)</label>
+                    <input class="text" type="text" name="lastname" id="lastname" />
+                </p>
+                <p>
+                    <label for="firstname">Tên của bạn(*)</label>
+                    <input class="text" type="text" name="firstname" id="firstname" />
+                </p>
+                <p>
+                    <label for="email">Email(*)</label>
+                    <input class="text" type="text" name="email" id="email" />
+                </p>
+                <p>
+                    <label for="phone">Số điện thoại(*)</label>
+                    <input class="text" type="text" name="phone" id="phone" />
+                </p>
+
+                <p>
+                    <label id="bottom">submit</label>
+                    <input type="submit" name="action" id="submit" value="Đăng ký" />
+                </p>
+            </form>
+        </div>
+        <!-- end #register -->
+    </article>
+    <footer>
+        <p class="footer"><a href="http://sothichweb.com/article/kiem_tra_form_hop_le_voi_javascript/8b70737">www.sothichweb.com/article/kiem_tra_form_hop_le_voi_javascript/8b70737</a>
+        </p>
+    </footer>
+</body>
+
+</html>
